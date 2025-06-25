@@ -1,30 +1,8 @@
-# pusl3120-Ecommerce web application
+# React + Vite
 
-- This application build using MERN
-- Frontend is developed using React
-- Backend is developed using nodejs with express
-- mongodb is used as the database
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-### The structure of the ENV file of the backend folder is as follows
+Currently, two official plugins are available:
 
-- JWT_SECRET = "sihan"
-- ADMIN_EMAIL = "admin@example.com"
-- ADMIN_PASSWORD = "stack123"
-- MONGODB_URI = "mongodb+srv://<username>:<password>@cluster0.mongodb.net"
-- CLOUDINARY_API_KEY = "##########"
-- CLOUDINARY_SECRET_KEY = "##########"
-- CLOUDINARY_NAME = "#########"
-- STRIPE_SECRET_KEY = "#####################"
-
-### The structure of the ENV file of frontend floder is as folows
-
-- VITE_BACKEND_URL = "http://localhost:4000"
-
-### The structure of the ENV file of the admin floder is as follows
-
-- VITE_BACKEND_URL = "http://localhost:4000"
-
-### The admin password and the email address
-
-- ADMIN_EMAIL = "admin@example.com"
-- ADMIN_PASSWORD = "stack123"
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
